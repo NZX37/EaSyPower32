@@ -6,11 +6,11 @@
 > [!NOTE]
 > This devlog is mirrored from [Half Life](https://halflife.hackclub.com). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
-> ESP32 with built in port for li-ion battery for easy battery power!
+> ESP32 with built in slots for li-ion battery recharge circuit for easy battery power!
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 3 | 20h | 4 |
+| Week 1 | Tier 2 | 20h | 4 |
 
 ## Contents
 
