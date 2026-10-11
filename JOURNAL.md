@@ -4,7 +4,6 @@
 <!-- Generated: 2026-10-11T11:51:53.042Z -->
 
 > [!NOTE]
-> This devlog is mirrored from [Half Life](https://halflife.hackclub.com). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
 > ESP32 with built in port for li-ion battery for easy battery power!
 
