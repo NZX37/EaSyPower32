@@ -4,12 +4,13 @@
 <!-- Generated: 2026-10-11T11:51:53.042Z -->
 
 > [!NOTE]
+> This devlog is mirrored from [Half Life](https://halflife.hackclub.com). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
 > ESP32 with built in port for li-ion battery for easy battery power!
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 2 | 19h | 4 |
+| Week 1 | Tier 2 | 20h | 4 |
 
 ## Contents
 
@@ -81,7 +82,7 @@ tl;dr I mapped out most of the schematics for the recharger and spent time to fi
 
 ### 2026-10-11 – PCB finished!
 
-**6h**
+**7h**
 
 PCB finished!
 
@@ -109,6 +110,9 @@ Tracing!(I had spent A LOT of time figuring out differential pairs for D+ and D-
 Beautiful Differential pairs right?
 
 Anyways after PAINFUL tracing and screaming at the DRC(including some funny ground fills and a LOT of vias), my PCB passes DRC!
+
+![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/u4daV3AON4Vg7wKuOmDpozDubBrsNyfk/31aa7714e89b8a9a438c0038062c9c9d233b05c8c7ead21010abbfdcc50a225d.png)
+3D view of the components!
 
 ### 2026-10-11 – After the hard part, I did some final tweaks.
 
