@@ -1,4 +1,4 @@
-# EaSyPower32
+﻿# EaSyPower32
 
 EaSyPower32 is an ESP32-S3 development board with USB-C and a connection for a TP4056 charger module. It is designed to make battery-powered ESP32 projects easier to prototype.
 
@@ -29,23 +29,25 @@ Ready-to-upload Gerber and drill files are in [`Production Files/`](Production%2
 
 For a new or modified board revision, open `breadESP32.kicad_pcb` in KiCad and regenerate fabrication outputs from that board before ordering. Check the board outline and manufacturer design rules against your chosen fabricator.
 
-## BOM(from BOM.md)
+## Bill of materials
 
-| Reference(s) | Qty. | Value / description | Footprint | LCSC part |
-| --- | ---: | --- | --- | --- |
-| C2, C5, C13 | 3 | 10 µF capacitor | 0805 | C49678 |
-| C3, C4, C11 | 3 | 1 µF capacitor | 0805 | C5199872 |
-| C6, C7, C8, C12 | 4 | 100 nF capacitor | 0603 | C14663 |
-| D1 | 1 | 1N5819WS Schottky diode | SOD-323 | C5451629 |
-| D2, D3, D4 | 3 | TVS diode (as listed in assembly BOM) | SOD-323 | C7519 |
-| D5 | 1 | Indicator LED | 0603 | C19171390 |
-| D6 | 1 | SK6812 RGB LED | PLCC-4, 5 × 5 mm | C5378720 |
-| J1 | 1 | TYPE-C-31-M-12 USB-C receptacle | USB-C, 16-pin | C165948 |
-| R2, R3 | 2 | 5.1 kΩ resistor | 0603 | C2907044 |
-| R4 | 1 | 75 Ω resistor | 0805 | C17820 |
-| R5, R6, R7 | 3 | 10 kΩ resistor | 0603 | C98220 |
-| SW1, SW2 | 2 | Tactile push button | SMD, B3S-1000 style | C273499 |
-| U1 | 1 | AP2112K-3.3 regulator | SOT-23-5 | C51118 |
-| U3 | 1 | ESP32-S3-WROOM-1-N16R2 module | ESP32-S3-WROOM-1 | C2913205 |
+Assembly quantities are for one board and match the [assembly BOM](Production%20Files/EaSyPower32_v1_bom.csv). Unit prices vary with order quantity and stock; each LCSC listing shows the current price.
 
-See [`BOM.md`](BOM.md) for the component list and LCSC part numbers. The project journal is in [`JOURNAL.md`](JOURNAL.md), and the `Firmware/` folder contains a minimal Arduino sketch.
+| Part / reference(s) | Quantity | Unit price | Buying link |
+| --- | ---: | ---: | --- |
+| 10 µF capacitor, C2/C5/C13 | 3 | See listing | [LCSC C49678](https://www.lcsc.com/product-detail/C49678.html) |
+| 1 µF capacitor, C3/C4/C11 | 3 | See listing | [LCSC C5199872](https://www.lcsc.com/product-detail/C5199872.html) |
+| 100 nF capacitor, C6/C7/C8/C12 | 4 | See listing | [LCSC C14663](https://www.lcsc.com/product-detail/C14663.html) |
+| 1N5819WS Schottky diode, D1 | 1 | See listing | [LCSC C5451629](https://www.lcsc.com/product-detail/C5451629.html) |
+| TVS diode, D2/D3/D4 | 3 | See listing | [LCSC C7519](https://www.lcsc.com/product-detail/C7519.html) |
+| Indicator LED, D5 | 1 | See listing | [LCSC C19171390](https://www.lcsc.com/product-detail/C19171390.html) |
+| SK6812 RGB LED, D6 | 1 | See listing | [LCSC C5378720](https://www.lcsc.com/product-detail/C5378720.html) |
+| USB-C receptacle, J1 | 1 | See listing | [LCSC C165948](https://www.lcsc.com/product-detail/C165948.html) |
+| 5.1 kΩ resistor, R2/R3 | 2 | See listing | [LCSC C2907044](https://www.lcsc.com/product-detail/C2907044.html) |
+| 75 Ω resistor, R4 | 1 | See listing | [LCSC C17820](https://www.lcsc.com/product-detail/C17820.html) |
+| 10 kΩ resistor, R5/R6/R7 | 3 | See listing | [LCSC C98220](https://www.lcsc.com/product-detail/C98220.html) |
+| Tactile push button, SW1/SW2 | 2 | See listing | [LCSC C273499](https://www.lcsc.com/product-detail/C273499.html) |
+| AP2112K-3.3 regulator, U1 | 1 | See listing | [LCSC C51118](https://www.lcsc.com/product-detail/C51118.html) |
+| ESP32-S3-WROOM-1-N16R2, U3 | 1 | See listing | [LCSC C2913205](https://www.lcsc.com/product-detail/C2913205.html) |
+
+See [`BOM.md`](BOM.md) for the full component list. The TP4056 charger module is external and is not included in this assembly BOM. The project journal is in [`JOURNAL.md`](JOURNAL.md), and the `Firmware/` folder contains a minimal Arduino sketch.
