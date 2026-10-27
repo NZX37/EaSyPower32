@@ -18,7 +18,7 @@
 2. [2026-10-09: # October 6: Schematics for ESP32 S3 Done!!](#2026-10-09-october-6-schematics-for-esp32-s3-done)
 3. [2026-10-11: PCB finished!](#2026-10-11-pcb-finished)
 4. [2026-10-11: After the hard part, I did some final tweaks.](#2026-10-11-after-the-hard-part-i-did-some-final-tweaks)
-5. [2026-10-25: # Repo upkeep and submission preparation](#2026-10-25-repo-upkeep-and-submission-preparation)
+5. [2026-10-25: # Enhancing readme](#2026-10-25-enhancing-readme)
 6. [2026-10-26: # Enhancing readme](#2026-10-26-enhancing-readme)
 
 ## Design
@@ -139,22 +139,22 @@ FInal Schematic:
 
 ![image](https://halflife.hackclub-assets.com/sessions/u4daV3AON4Vg7wKuOmDpozDubBrsNyfk/56c9cf6d7286ebe8caac1f2f55cb281c195439524693abc7e557af7c6e727c6b.png)
 
-### 2026-10-25: # Repo upkeep and submission preparation
+### 2026-10-25: # Enhancing readme
 
 **2h**
 
-# Repo upkeep and submission preparation
-## Making the readme nice
+# Enhancing readme
 
-![image](https://halflife.hackclub-assets.com/sessions/u4daV3AON4Vg7wKuOmDpozDubBrsNyfk/9612d1ff59b154e37066820c19d0ea67fb1360b3afb2af590d2c6fc9025d6efe.png)
+## BOM
+I forgot to copy the BOM into readme, and while i had the chance, I updated some part values(specifically the LED resistor)
 
-![image](https://halflife.hackclub-assets.com/sessions/u4daV3AON4Vg7wKuOmDpozDubBrsNyfk/fa814ae23fea01f8066f498eb64ea64ba44892cf5cd233f347e81c95902458f1.png)
+![image](https://halflife.hackclub-assets.com/sessions/u4daV3AON4Vg7wKuOmDpozDubBrsNyfk/34c3774c0f0b5199ad46c92fc6173b9f325c3fa55721abc99c6839137590f982.png)
 
-## generating PCB files
-this is self explanatory. I also had to use JLCPCB to generate a bill for pcb and pcba
+## gerber
 
-![Screenshot 2026-10-25 221538](https://halflife.hackclub-assets.com/sessions/u4daV3AON4Vg7wKuOmDpozDubBrsNyfk/906da8dc258150584a6d24d7ec15157f63eb51bc60a530d9f53a66317e679822.png)
-nice graphics from jlcpcb!!
+I also regenerated all the drill and gerber files since some were missing last time.
+
+![image](https://halflife.hackclub-assets.com/sessions/u4daV3AON4Vg7wKuOmDpozDubBrsNyfk/9cba3e825ab87689fd253a329fd63c6d5e63fd6fcaae8611f28022fa36cbf6c7.png)
 
 ### 2026-10-26: # Enhancing readme
 
